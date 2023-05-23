@@ -7,7 +7,7 @@ public class Calculator {
         System.out.println("1-add");
         System.out.println("2-subtract");
         System.out.println("3-power");
-        // I'm on branch A
+        
         int operation = scanner.nextInt();
 
         System.out.print("Enter first value ");
