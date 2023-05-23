@@ -6,7 +6,8 @@ public class Calculator {
         System.out.println("Please choose an operation you want to perform");
         System.out.println("1-add");
         System.out.println("2-subtract");
-        System.out.println("3-power");
+        System.out.println("3-multiply");
+        System.out.println("4-power");
         
         int operation = scanner.nextInt();
 
@@ -24,6 +25,9 @@ public class Calculator {
                 sub(firstVal, secondVal);
                 break;
             case 3:
+                mul(firstVal, secondVal);
+                break;
+            case 4:
                 power(firstVal, secondVal);
                 break;
             default:
@@ -37,6 +41,10 @@ public class Calculator {
 
     static void sub(double val1, double val2){
         System.out.println("Answer = " + (val1 - val2));
+    }
+
+    static void mul(double val1, double val2){
+        System.out.println("Answer = " + (val1 * val2));
     }
 
     static void power(double val1, double val2){
