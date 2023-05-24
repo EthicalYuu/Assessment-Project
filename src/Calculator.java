@@ -48,15 +48,6 @@ public class Calculator {
     }
 
     static void power(double val1, double val2){
-//<<<<<<< HEAD
-//        long result = val1;
-//
-//        for (int i = 1; i < val2; i++) {
-//            result = result * val1;         // User B
-//        }
-//        System.out.println("Answer = " + result);
-//=======
-        System.out.println("Answer = " + Math.pow(val1, val2)); // User A
-//>>>>>>> e2fe2fa0581c0d75174cd21382701951e9f500dc
+        System.out.println("Answer = " + (val1 ** val2))
     }
 }
